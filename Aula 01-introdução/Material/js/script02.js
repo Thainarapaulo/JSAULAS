@@ -15,5 +15,5 @@ var soma = numero1 + numero2;
 // ** elevar um número
 // / dividir
 // = atribuir
-// ++ somar mais a um ao número
+// ++ somar mais um ao número
 // -- subtrair um ao número
