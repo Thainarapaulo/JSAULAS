@@ -15,6 +15,10 @@ location.reload();
     if (idade >= 60){
     alert("Idoso");
     location.reload();
+    }else{
+        if(idade != idade);
+        alert("Idade errada! Diigite sua idade novamente");
+        location.reload()
     }
 }
 }
