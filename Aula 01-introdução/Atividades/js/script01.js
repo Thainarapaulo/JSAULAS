@@ -13,11 +13,11 @@ var valorTotalConta = Number(prompt("Digite o valor da conta"));
 //  alert(` A divisão da conta é de R$ ${divisao}`);
 //  }
 
-// VALOR FIXO
-//  function calculeConta(numeroClientes, valorTotalConta){
-//  alert("Calcule a Conta");
 
+// // VALOR FIXO
+// //  parseInt(divisao*100)/100
+//  function calculeConta(numeroClientes, valorTotalConta){
 //  let divisao = valorTotalConta / numeroClientes;
-//  alert(` A divisão da conta é de R$ ${divisao}`);
-// calculeConta ();
+//  alert(`A divisão da conta é de R$ ${divisao.toFixed(2)};
 //  }
+
