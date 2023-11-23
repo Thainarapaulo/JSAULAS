@@ -7,7 +7,7 @@ var contador = 0;
 // contador + 1
 // fimEnquanto
 
-while (contador <= 10){
+while (contador <= 10){c
   console.log(contador);
   contador = contador + 1; // ou contador++
 }
