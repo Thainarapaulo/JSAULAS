@@ -1,5 +1,4 @@
 var filmes  = ["Avatar","Coração de Ferro","Barbie","Crepusculo", "Jogos Vorazes","Rei Leão"];
-console.log(filmes); 
-var contador = 0;
-console.log(contador);
- contador++;
+for (let contador = 0; contador < filmes.length; contador++) {
+    console.log(filmes[contador]);
+  }
