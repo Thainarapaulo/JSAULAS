@@ -85,3 +85,14 @@ for (let contador = 1; contador <= 10; contador++) {
   const resultado = numero10 * contador;
   console.log(`${numero2} x ${contador} = ${resultado}`);
 }
+
+
+// Correção
+
+// for (var contTabuada = 1; contTabuada <=10; contTabuada++){
+//   console.log("-----------")
+// for (var cont = 1; cont <=10; cont++){
+//   console.log(`${cont} x ${contTabuada} = ${cont * contTabuada}`);
+// }
+// console.log("-----------")
+// }
