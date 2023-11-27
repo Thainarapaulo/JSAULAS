@@ -13,7 +13,7 @@ if(filhos == 0 || salario == 0){
 }else if(salario <= 806.80){
     let resultado = filhos * 41.37;
     resultadoSpan.innerHTML = `O salário família do empregado ${empregado} é de R$ ${resultado}`;
-  } else if(salario >= 806.81 && salario <= 1212.64);{
+  }else if(salario >= 806.81 && salario <= 1212.64);{
     let resultado = filhos * 29.16;
     resultadoSpan.innerHTML = `O salário família do empregado ${empregado} é de R$ ${resultado}`;
   }else{
