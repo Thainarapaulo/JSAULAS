@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .formulario{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    input{
+        width: 50%;
+        height: 30px;
+    }
+    #btnCadastrar, input{
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px green;
+    }
+</style>
+<body>
+    <div style="background-color: rgba(172, 255, 47, 0.541); border-radius: 2px; height: 800px; border-radius: 5px; box-shadow: 5px 5px 5px green;">
+    <h1 style="display: flex; justify-content: center; color: green; text-decoration:underline; padding-top: 20px;">CADASTRO DE FILMES</h1>
+    <form class="formulario" style="padding-top: 50px;">
+        <input type="text" id="nomeFilme" placeholder="Nome do Filme" autocomplete="cc-name">
+        <input type="text" id="descricao" placeholder="Descrição do Filme" autocomplete="address-level1">
+        <input type="date" id="data" placeholder="Data de Lançamento" autocomplete="bday-day">
+        <input type="text" id="diretor" placeholder="Diretor" autocomplete="cc-name">
+        <input type="text" id="categoria" placeholder="Categoria" autocomplete="text">
+        <button type="button" id="btnCadastrar" style="padding: 10px; color: green; background-color:white;">CADASTRAR FILME</button>
+    </form>
+    </div>
+    <script src="../atividade/js/script02.js"></script>
+</body>
+</html>
