@@ -17,7 +17,7 @@
         width: 50%;
         height: 30px;
     }
-    #btnCadastrar, input{
+    #btnCadastrar, #btnListar, input{
         border-radius: 5px;
         box-shadow: 2px 2px 5px green;
     }
@@ -38,12 +38,14 @@
     <img src="../atividade/images/fita.jpg" alt="">
     </div>
     <form class="formulario" style="padding-top: 50px;">
-        <input type="text" id="nomeFilme" placeholder="Nome do Filme" autocomplete="cc-name">
-        <input type="text" id="descricao" placeholder="Descrição do Filme" autocomplete="address-level1">
-        <input type="date" id="data" placeholder="Data de Lançamento" autocomplete="bday-day">
-        <input type="text" id="diretor" placeholder="Diretor" autocomplete="cc-name">
-        <input type="text" id="categoria" placeholder="Categoria" autocomplete="text">
+        <input type="text" required required id="nomeFilme" placeholder="Nome do Filme" autocomplete="cc-name">
+        <input type="text" required id="descricao" placeholder="Descrição do Filme" autocomplete="address-level1">
+        <input type="date" required id="data" placeholder="Data de Lançamento" autocomplete="bday-day">
+        <input type="text" required id="diretor" placeholder="Diretor" autocomplete="cc-name">
+        <input type="text" required id="categoria" placeholder="Categoria" autocomplete="text">
         <button type="button" id="btnCadastrar" style="padding: 10px; color: green; background-color:white;">CADASTRAR FILME</button>
+        <button type="button" id="btnListar" style="padding: 10px; color: green; background-color:white;">LISTAR</button>
+
     </form>
     <div id="resposta"></div>
     <script src="../atividade/js/script02.js"></script>
