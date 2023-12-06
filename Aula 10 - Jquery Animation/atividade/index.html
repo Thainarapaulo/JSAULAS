@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+       display: flex;
+       justify-content: center;
+       padding: 20px;
+    }
+    .temaClaro{
+       background-color: rgb(225, 229, 233);
+       color: green;
+       transition: 0.5s;
+    }
+    .temaEscuro{
+       background-color:green;
+       color:  rgb(225, 229, 233);
+       transition: 0.5s;
+
+    }
+    div{
+        display: flex;
+        justify-content: center;
+    }
+    #img{
+        width: 500px;
+        height: 300px;
+        padding-top: 5%;
+    }
+</style>
+</head>
+<body class="temaClaro">
+    <div>
+    <img src="../atividade/images/images.jpg" id="img">
+    </div>
+    <div class="container">
+    <button type="button" id="trocaTema" class="temaClaro">OPA!</button>
+    </div>
+    <script src="../atividade/js/jquery-3.7.1.js"></script>
+    <script src="../atividade/js/script.js"></script>
+</body>
+</html>
